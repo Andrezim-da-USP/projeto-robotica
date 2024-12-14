@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (meu_pacote_py) JobQueued: {'identifier': 'meu_pacote_py', 'dependencies': OrderedDict()}
+[0.000469] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000498] (meu_pacote_py) JobStarted: {'identifier': 'meu_pacote_py'}
+[0.016992] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.099368] (-) TimerEvent: {}
+[0.199710] (-) TimerEvent: {}
+[0.230620] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.231138] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[0.231783] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/robot_description', '--', '-j8', '-l8'], 'cwd': '/home/ros2_ws/build/robot_description', 'env': OrderedDict([('HOSTNAME', 'andre-computador'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('OLDPWD', '/home/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/meu_pacote_py:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/robot_description'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/meu_pacote_py:/opt/ros/humble')]), 'shell': False}
+[0.268309] (robot_description) CommandEnded: {'returncode': 0}
+[0.287427] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[0.295700] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/robot_description'], 'cwd': '/home/ros2_ws/build/robot_description', 'env': OrderedDict([('HOSTNAME', 'andre-computador'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('OLDPWD', '/home/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/meu_pacote_py:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/robot_description'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/meu_pacote_py:/opt/ros/humble')]), 'shell': False}
+[0.299820] (-) TimerEvent: {}
+[0.304906] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.305134] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/launch\n'}
+[0.305213] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[0.305313] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/urdf\n'}
+[0.305380] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/urdf/rrp_description.urdf.xacro\n'}
+[0.305447] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/urdf/puma560_description.urdf.xacro\n'}
+[0.305504] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/config\n'}
+[0.305614] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/meshes\n'}
+[0.305682] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_1.STL\n'}
+[0.305740] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_3.STL\n'}
+[0.305796] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/meshes/base_link.STL\n'}
+[0.305851] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_2.STL\n'}
+[0.306003] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/rviz2\n'}
+[0.306102] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[0.306158] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[0.306212] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[0.306267] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[0.306322] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/environment/path.sh\n'}
+[0.306377] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[0.306434] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/local_setup.bash\n'}
+[0.306489] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/local_setup.sh\n'}
+[0.306547] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[0.306603] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[0.306658] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/package.dsv\n'}
+[0.306767] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[0.306830] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[0.306884] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[0.306960] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/robot_description/share/robot_description/package.xml\n'}
+[0.308180] (robot_description) CommandEnded: {'returncode': 0}
+[0.341448] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[0.399954] (-) TimerEvent: {}
+[0.500374] (-) TimerEvent: {}
+[0.573065] (meu_pacote_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/meu_pacote_py', 'build', '--build-base', '/home/ros2_ws/build/meu_pacote_py/build', 'install', '--record', '/home/ros2_ws/build/meu_pacote_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros2_ws/meu_pacote_py', 'env': {'HOSTNAME': 'andre-computador', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros2_ws', 'OLDPWD': '/home/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-ros2_ws', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/meu_pacote_py:/opt/ros/humble', 'PWD': '/home/ros2_ws/build/meu_pacote_py', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/home/ros2_ws/build/meu_pacote_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages:/home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'TZ': 'America/Sao_Paulo', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2_ws/install/robot_description'}, 'shell': False}
+[0.600490] (-) TimerEvent: {}
+[0.700789] (-) TimerEvent: {}
+[0.789944] (meu_pacote_py) StdoutLine: {'line': b'running egg_info\n'}
+[0.790551] (meu_pacote_py) StdoutLine: {'line': b'writing ../build/meu_pacote_py/meu_pacote_py.egg-info/PKG-INFO\n'}
+[0.790759] (meu_pacote_py) StdoutLine: {'line': b'writing dependency_links to ../build/meu_pacote_py/meu_pacote_py.egg-info/dependency_links.txt\n'}
+[0.790970] (meu_pacote_py) StdoutLine: {'line': b'writing entry points to ../build/meu_pacote_py/meu_pacote_py.egg-info/entry_points.txt\n'}
+[0.791195] (meu_pacote_py) StdoutLine: {'line': b'writing requirements to ../build/meu_pacote_py/meu_pacote_py.egg-info/requires.txt\n'}
+[0.791321] (meu_pacote_py) StdoutLine: {'line': b'writing top-level names to ../build/meu_pacote_py/meu_pacote_py.egg-info/top_level.txt\n'}
+[0.793182] (meu_pacote_py) StdoutLine: {'line': b"reading manifest file '../build/meu_pacote_py/meu_pacote_py.egg-info/SOURCES.txt'\n"}
+[0.794073] (meu_pacote_py) StdoutLine: {'line': b"writing manifest file '../build/meu_pacote_py/meu_pacote_py.egg-info/SOURCES.txt'\n"}
+[0.794281] (meu_pacote_py) StdoutLine: {'line': b'running build\n'}
+[0.794399] (meu_pacote_py) StdoutLine: {'line': b'running build_py\n'}
+[0.794552] (meu_pacote_py) StdoutLine: {'line': b'running install\n'}
+[0.794851] (meu_pacote_py) StdoutLine: {'line': b'running install_lib\n'}
+[0.796230] (meu_pacote_py) StdoutLine: {'line': b'running install_data\n'}
+[0.796419] (meu_pacote_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.798395] (meu_pacote_py) StdoutLine: {'line': b"removing '/home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages/meu_pacote_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.798628] (meu_pacote_py) StdoutLine: {'line': b'Copying ../build/meu_pacote_py/meu_pacote_py.egg-info to /home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages/meu_pacote_py-0.0.0-py3.10.egg-info\n'}
+[0.799560] (meu_pacote_py) StdoutLine: {'line': b'running install_scripts\n'}
+[0.800874] (-) TimerEvent: {}
+[0.825366] (meu_pacote_py) StdoutLine: {'line': b'Installing publisher_py script to /home/ros2_ws/install/meu_pacote_py/lib/meu_pacote_py\n'}
+[0.825644] (meu_pacote_py) StdoutLine: {'line': b'Installing subscriber_py script to /home/ros2_ws/install/meu_pacote_py/lib/meu_pacote_py\n'}
+[0.825848] (meu_pacote_py) StdoutLine: {'line': b"writing list of installed files to '/home/ros2_ws/build/meu_pacote_py/install.log'\n"}
+[0.856351] (meu_pacote_py) CommandEnded: {'returncode': 0}
+[0.863103] (meu_pacote_py) JobEnded: {'identifier': 'meu_pacote_py', 'rc': 0}
+[0.864040] (-) EventReactorShutdown: {}

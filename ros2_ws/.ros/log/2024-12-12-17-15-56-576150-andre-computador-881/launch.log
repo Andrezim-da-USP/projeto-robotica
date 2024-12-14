@@ -1,0 +1,5 @@
+1734034556.5770130 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-12-17-15-56-576150-andre-computador-881
+1734034556.5771599 [INFO] [launch]: Default logging verbosity is set to INFO
+1734034556.5949030 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - PackageNotFoundError: "package 'puma560_description' not found, searching: ['/home/ros2_ws/install/robot_description', '/home/ros2_ws/install/meu_pacote_py', '/opt/ros/humble']"
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

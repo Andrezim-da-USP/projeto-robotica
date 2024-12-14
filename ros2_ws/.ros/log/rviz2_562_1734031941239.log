@@ -1,0 +1,16 @@
+[INFO] [1734031941.618864083] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1734031941.619108356] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1734031941.656845307] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1734032036.192565061] [rviz2]: Error retrieving file [file:///home/ros2_ws/install/robot_description/share/robot_description/meshes/base_link.STL]: Couldn't open file /home/ros2_ws/install/robot_description/share/robot_description/meshes/base_link.STL
+[ERROR] [1734032036.192717251] [rviz2]: Error retrieving file [file:///home/ros2_ws/install/robot_description/share/robot_description/meshes/base_link.STL]: Couldn't open file /home/ros2_ws/install/robot_description/share/robot_description/meshes/base_link.STL
+[ERROR] [1734032036.193408898] [rviz2]: Error retrieving file [file:///home/ros2_ws/install/robot_description/share/robot_description/meshes/link_1.STL]: Couldn't open file /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_1.STL
+[ERROR] [1734032036.193496110] [rviz2]: Error retrieving file [file:///home/ros2_ws/install/robot_description/share/robot_description/meshes/link_1.STL]: Couldn't open file /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_1.STL
+[ERROR] [1734032036.193630261] [rviz2]: Error retrieving file [file:///home/ros2_ws/install/robot_description/share/robot_description/meshes/link_2.STL]: Couldn't open file /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_2.STL
+[ERROR] [1734032036.193714082] [rviz2]: Error retrieving file [file:///home/ros2_ws/install/robot_description/share/robot_description/meshes/link_2.STL]: Couldn't open file /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_2.STL
+[ERROR] [1734032036.193847702] [rviz2]: Error retrieving file [file:///home/ros2_ws/install/robot_description/share/robot_description/meshes/link_3.STL]: Couldn't open file /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_3.STL
+[ERROR] [1734032036.193924364] [rviz2]: Error retrieving file [file:///home/ros2_ws/install/robot_description/share/robot_description/meshes/link_3.STL]: Couldn't open file /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_3.STL
+[ERROR] [1734032036.194089504] [rviz2]: Error retrieving file [file:///home/ros2_ws/install/robot_description/share/robot_description/meshes/link_4.STL]: Couldn't open file /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_4.STL
+[ERROR] [1734032036.194186623] [rviz2]: Error retrieving file [file:///home/ros2_ws/install/robot_description/share/robot_description/meshes/link_4.STL]: Couldn't open file /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_4.STL
+[ERROR] [1734032036.194603711] [rviz2]: Error retrieving file [file:///home/ros2_ws/install/robot_description/share/robot_description/meshes/link_5.STL]: Couldn't open file /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_5.STL
+[ERROR] [1734032036.194747248] [rviz2]: Error retrieving file [file:///home/ros2_ws/install/robot_description/share/robot_description/meshes/link_5.STL]: Couldn't open file /home/ros2_ws/install/robot_description/share/robot_description/meshes/link_5.STL
+[INFO] [1734032172.186267328] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,6 @@
+[INFO] [1734096142.867648848] [robot_state_publisher]: got segment base_link
+[INFO] [1734096142.867793485] [robot_state_publisher]: got segment link_1
+[INFO] [1734096142.867803893] [robot_state_publisher]: got segment link_2
+[INFO] [1734096142.867808562] [robot_state_publisher]: got segment link_3
+[INFO] [1734096142.867812548] [robot_state_publisher]: got segment world
+[INFO] [1734096197.289548426] [rclcpp]: signal_handler(signum=2)

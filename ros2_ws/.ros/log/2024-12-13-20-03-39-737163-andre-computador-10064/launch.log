@@ -1,0 +1,16 @@
+1734131019.7379947 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-13-20-03-39-737163-andre-computador-10064
+1734131019.7381623 [INFO] [launch]: Default logging verbosity is set to INFO
+1734131019.8374867 [INFO] [robot_state_publisher-1]: process started with pid [10065]
+1734131019.8377986 [INFO] [joint_state_publisher-2]: process started with pid [10067]
+1734131019.8379583 [INFO] [joint_state_publisher_gui-3]: process started with pid [10069]
+1734131019.8380797 [INFO] [rviz2-4]: process started with pid [10071]
+1734131020.0856254 [joint_state_publisher_gui-3] QStandardPaths: runtime directory '/tmp/runtime-ros2_ws' is not owned by UID 0, but a directory permissions 0700 owned by UID 1000 GID 1000
+1734131020.1088822 [joint_state_publisher-2] [INFO] [1734131020.108409040] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734131020.1425254 [joint_state_publisher_gui-3] [INFO] [1734131020.142296270] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734131020.1571012 [joint_state_publisher_gui-3] [INFO] [1734131020.156875835] [joint_state_publisher_gui]: Centering
+1734131020.2479217 [joint_state_publisher_gui-3] [INFO] [1734131020.247530993] [joint_state_publisher_gui]: Centering
+1734131027.9099917 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734131027.9258411 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 10069, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734131028.0266266 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 10065]
+1734131028.0711129 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 10067]
+1734131028.1005018 [INFO] [rviz2-4]: process has finished cleanly [pid 10071]

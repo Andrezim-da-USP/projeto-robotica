@@ -1,0 +1,17 @@
+1734029658.9320097 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-12-15-54-18-931152-andre-computador-386
+1734029658.9321840 [INFO] [launch]: Default logging verbosity is set to INFO
+1734029659.0335207 [INFO] [robot_state_publisher-1]: process started with pid [387]
+1734029659.0338676 [INFO] [joint_state_publisher-2]: process started with pid [389]
+1734029659.0340569 [INFO] [joint_state_publisher_gui-3]: process started with pid [391]
+1734029659.0341876 [INFO] [rviz2-4]: process started with pid [393]
+1734029659.3725421 [joint_state_publisher_gui-3] QStandardPaths: runtime directory '/tmp/runtime-ros2_ws' is not owned by UID 0, but a directory permissions 0700 owned by UID 1000 GID 1000
+1734029659.4458058 [joint_state_publisher-2] [INFO] [1734029659.445371048] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734029659.4468837 [joint_state_publisher_gui-3] [INFO] [1734029659.446460174] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734029659.4643118 [joint_state_publisher-2] [WARN] [1734029659.463899289] [joint_state_publisher]: Invalid robot_description given, ignoring
+1734029659.4699388 [joint_state_publisher_gui-3] [INFO] [1734029659.469587126] [joint_state_publisher_gui]: Centering
+1734029659.5691466 [joint_state_publisher_gui-3] [WARN] [1734029659.568874440] [joint_state_publisher_gui]: Invalid robot_description given, ignoring
+1734029661.7578914 [INFO] [joint_state_publisher_gui-3]: process has finished cleanly [pid 391]
+1734029689.7712226 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734029689.8894546 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 387]
+1734029689.9286203 [INFO] [rviz2-4]: process has finished cleanly [pid 393]
+1734029689.9322052 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 389]

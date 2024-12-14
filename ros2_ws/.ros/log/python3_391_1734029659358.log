@@ -1,0 +1,3 @@
+[INFO] [1734029659.446460174] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+[INFO] [1734029659.469587126] [joint_state_publisher_gui]: Centering
+[WARN] [1734029659.568874440] [joint_state_publisher_gui]: Invalid robot_description given, ignoring

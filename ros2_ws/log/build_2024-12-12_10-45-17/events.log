@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (meu_pacote_py) JobQueued: {'identifier': 'meu_pacote_py', 'dependencies': OrderedDict()}
+[0.000467] (meu_pacote_py) JobStarted: {'identifier': 'meu_pacote_py'}
+[0.099570] (-) TimerEvent: {}
+[0.199829] (-) TimerEvent: {}
+[0.300156] (-) TimerEvent: {}
+[0.400443] (-) TimerEvent: {}
+[0.500872] (-) TimerEvent: {}
+[0.601450] (-) TimerEvent: {}
+[0.653808] (meu_pacote_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/meu_pacote_py', 'build', '--build-base', '/home/ros2_ws/build/meu_pacote_py/build', 'install', '--record', '/home/ros2_ws/build/meu_pacote_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros2_ws/meu_pacote_py', 'env': {'HOSTNAME': 'andre-computador', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros2_ws', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-ros2_ws', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/home/ros2_ws/build/meu_pacote_py', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/home/ros2_ws/build/meu_pacote_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'TZ': 'America/Sao_Paulo', 'COLCON': '1'}, 'shell': False}
+[0.701569] (-) TimerEvent: {}
+[0.801974] (-) TimerEvent: {}
+[0.889921] (meu_pacote_py) StdoutLine: {'line': b'running egg_info\n'}
+[0.890921] (meu_pacote_py) StdoutLine: {'line': b'creating ../build/meu_pacote_py/meu_pacote_py.egg-info\n'}
+[0.891162] (meu_pacote_py) StdoutLine: {'line': b'writing ../build/meu_pacote_py/meu_pacote_py.egg-info/PKG-INFO\n'}
+[0.891441] (meu_pacote_py) StdoutLine: {'line': b'writing dependency_links to ../build/meu_pacote_py/meu_pacote_py.egg-info/dependency_links.txt\n'}
+[0.891560] (meu_pacote_py) StdoutLine: {'line': b'writing entry points to ../build/meu_pacote_py/meu_pacote_py.egg-info/entry_points.txt\n'}
+[0.891643] (meu_pacote_py) StdoutLine: {'line': b'writing requirements to ../build/meu_pacote_py/meu_pacote_py.egg-info/requires.txt\n'}
+[0.891818] (meu_pacote_py) StdoutLine: {'line': b'writing top-level names to ../build/meu_pacote_py/meu_pacote_py.egg-info/top_level.txt\n'}
+[0.891981] (meu_pacote_py) StdoutLine: {'line': b"writing manifest file '../build/meu_pacote_py/meu_pacote_py.egg-info/SOURCES.txt'\n"}
+[0.893962] (meu_pacote_py) StdoutLine: {'line': b"reading manifest file '../build/meu_pacote_py/meu_pacote_py.egg-info/SOURCES.txt'\n"}
+[0.894524] (meu_pacote_py) StdoutLine: {'line': b"writing manifest file '../build/meu_pacote_py/meu_pacote_py.egg-info/SOURCES.txt'\n"}
+[0.894608] (meu_pacote_py) StdoutLine: {'line': b'running build\n'}
+[0.894667] (meu_pacote_py) StdoutLine: {'line': b'running build_py\n'}
+[0.894882] (meu_pacote_py) StdoutLine: {'line': b'creating /home/ros2_ws/build/meu_pacote_py/build\n'}
+[0.894940] (meu_pacote_py) StdoutLine: {'line': b'creating /home/ros2_ws/build/meu_pacote_py/build/lib\n'}
+[0.895005] (meu_pacote_py) StdoutLine: {'line': b'creating /home/ros2_ws/build/meu_pacote_py/build/lib/meu_pacote_py\n'}
+[0.895077] (meu_pacote_py) StdoutLine: {'line': b'copying meu_pacote_py/publisher_py.py -> /home/ros2_ws/build/meu_pacote_py/build/lib/meu_pacote_py\n'}
+[0.895123] (meu_pacote_py) StdoutLine: {'line': b'copying meu_pacote_py/subscriber_py.py -> /home/ros2_ws/build/meu_pacote_py/build/lib/meu_pacote_py\n'}
+[0.895198] (meu_pacote_py) StdoutLine: {'line': b'copying meu_pacote_py/__init__.py -> /home/ros2_ws/build/meu_pacote_py/build/lib/meu_pacote_py\n'}
+[0.895331] (meu_pacote_py) StdoutLine: {'line': b'running install\n'}
+[0.895676] (meu_pacote_py) StdoutLine: {'line': b'running install_lib\n'}
+[0.896334] (meu_pacote_py) StdoutLine: {'line': b'creating /home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages/meu_pacote_py\n'}
+[0.896386] (meu_pacote_py) StdoutLine: {'line': b'copying /home/ros2_ws/build/meu_pacote_py/build/lib/meu_pacote_py/publisher_py.py -> /home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages/meu_pacote_py\n'}
+[0.896455] (meu_pacote_py) StdoutLine: {'line': b'copying /home/ros2_ws/build/meu_pacote_py/build/lib/meu_pacote_py/subscriber_py.py -> /home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages/meu_pacote_py\n'}
+[0.896519] (meu_pacote_py) StdoutLine: {'line': b'copying /home/ros2_ws/build/meu_pacote_py/build/lib/meu_pacote_py/__init__.py -> /home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages/meu_pacote_py\n'}
+[0.896919] (meu_pacote_py) StdoutLine: {'line': b'byte-compiling /home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages/meu_pacote_py/publisher_py.py to publisher_py.cpython-310.pyc\n'}
+[0.897335] (meu_pacote_py) StdoutLine: {'line': b'byte-compiling /home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages/meu_pacote_py/subscriber_py.py to subscriber_py.cpython-310.pyc\n'}
+[0.897564] (meu_pacote_py) StdoutLine: {'line': b'byte-compiling /home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages/meu_pacote_py/__init__.py to __init__.cpython-310.pyc\n'}
+[0.897691] (meu_pacote_py) StdoutLine: {'line': b'running install_data\n'}
+[0.897783] (meu_pacote_py) StdoutLine: {'line': b'creating /home/ros2_ws/install/meu_pacote_py/share/ament_index\n'}
+[0.897853] (meu_pacote_py) StdoutLine: {'line': b'creating /home/ros2_ws/install/meu_pacote_py/share/ament_index/resource_index\n'}
+[0.897900] (meu_pacote_py) StdoutLine: {'line': b'creating /home/ros2_ws/install/meu_pacote_py/share/ament_index/resource_index/packages\n'}
+[0.897961] (meu_pacote_py) StdoutLine: {'line': b'copying resource/meu_pacote_py -> /home/ros2_ws/install/meu_pacote_py/share/ament_index/resource_index/packages\n'}
+[0.898028] (meu_pacote_py) StdoutLine: {'line': b'copying package.xml -> /home/ros2_ws/install/meu_pacote_py/share/meu_pacote_py\n'}
+[0.898091] (meu_pacote_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.899700] (meu_pacote_py) StdoutLine: {'line': b'Copying ../build/meu_pacote_py/meu_pacote_py.egg-info to /home/ros2_ws/install/meu_pacote_py/lib/python3.10/site-packages/meu_pacote_py-0.0.0-py3.10.egg-info\n'}
+[0.900332] (meu_pacote_py) StdoutLine: {'line': b'running install_scripts\n'}
+[0.902030] (-) TimerEvent: {}
+[0.921905] (meu_pacote_py) StdoutLine: {'line': b'Installing publisher_py script to /home/ros2_ws/install/meu_pacote_py/lib/meu_pacote_py\n'}
+[0.922124] (meu_pacote_py) StdoutLine: {'line': b'Installing subscriber_py script to /home/ros2_ws/install/meu_pacote_py/lib/meu_pacote_py\n'}
+[0.922300] (meu_pacote_py) StdoutLine: {'line': b"writing list of installed files to '/home/ros2_ws/build/meu_pacote_py/install.log'\n"}
+[0.943113] (meu_pacote_py) CommandEnded: {'returncode': 0}
+[0.956485] (meu_pacote_py) JobEnded: {'identifier': 'meu_pacote_py', 'rc': 0}
+[0.957224] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[INFO] [1734110754.339195662] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1734110754.339381988] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1734110754.373563627] [rviz2]: Stereo is NOT SUPPORTED
+[WARN] [1734110831.212040289] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[WARN] [1734110831.228605925] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[ERROR] [1734110841.235785528] [rviz2]: Could not find parameter robot_description_semantic and did not receive robot_description_semantic via std_msgs::msg::String subscription within 10.000000 seconds.
+[ERROR] [1734110841.259633270] [moveit_rdf_loader.rdf_loader]: Unable to parse SRDF
+[INFO] [1734110926.640796835] [rclcpp]: signal_handler(signum=2)

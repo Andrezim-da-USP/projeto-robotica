@@ -1,0 +1,16 @@
+1734121024.4041123 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-13-17-17-04-403310-andre-computador-9458
+1734121024.4042859 [INFO] [launch]: Default logging verbosity is set to INFO
+1734121024.4895482 [INFO] [robot_state_publisher-1]: process started with pid [9459]
+1734121024.4899065 [INFO] [joint_state_publisher-2]: process started with pid [9461]
+1734121024.4900653 [INFO] [joint_state_publisher_gui-3]: process started with pid [9463]
+1734121024.4901881 [INFO] [rviz2-4]: process started with pid [9465]
+1734121024.7508509 [joint_state_publisher_gui-3] QStandardPaths: runtime directory '/tmp/runtime-ros2_ws' is not owned by UID 0, but a directory permissions 0700 owned by UID 1000 GID 1000
+1734121024.7774441 [joint_state_publisher-2] [INFO] [1734121024.777208930] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734121024.8104725 [joint_state_publisher_gui-3] [INFO] [1734121024.810223474] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734121024.8228226 [joint_state_publisher_gui-3] [INFO] [1734121024.822456240] [joint_state_publisher_gui]: Centering
+1734121024.9238503 [joint_state_publisher_gui-3] [INFO] [1734121024.923439620] [joint_state_publisher_gui]: Centering
+1734121064.3220882 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734121064.3381212 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 9463, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734121064.4948347 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 9461]
+1734121064.5003283 [INFO] [rviz2-4]: process has finished cleanly [pid 9465]
+1734121064.5673244 [ERROR] [robot_state_publisher-1]: process has died [pid 9459, exit code -11, cmd '/opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args --params-file /tmp/launch_params_789l8hva'].

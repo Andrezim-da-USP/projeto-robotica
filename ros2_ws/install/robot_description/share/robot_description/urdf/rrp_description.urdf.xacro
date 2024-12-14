@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<!-- https://wiki.ros.org/urdf/XML/link -->
+
+<robot name="rrp">
+    <!-- Definições de materiais usados nas geometrias do robô -->
+
+    <!-- Material para cor vermelha -->
+    <material name="red">
+    <color rgba="0.8 0 0 1"/>
+    </material>
+
+
+    <!-- Material para cor verde -->
+    <material name="green">
+    <color rgba="0 0.8 0 1"/>
+    </material>
+
+    <!-- Material para cor azul -->
+    <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+    </material>
+
+    <!-- Material para cor amarela -->
+    <material name="yellow">
+    <color rgba="1 1 0 1"/>
+    </material>
+
+    <!-- Material para cor cyan -->
+    <material name="cyan">
+    <color rgba="0 1 1 1"/>
+    </material>
+
+    <material name="white">
+    <color rgba="0.1 0.1 0.1 1"/>
+    </material>
+
+
+<!-- Definicao dos LINKS e JUNTAS 
+-->
+    <!-- Definição do link 'world', que é o ponto de origem do sistema -->
+    <link name="world">
+    <visual>
+        <geometry>
+            <box size="0.0 0.0 0.0"/>  
+        </geometry>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <material name="green"/>
+    </visual>    
+</link>
+
+    <!-- Junta fixa que conecta o 'world' ao 'base_link' -->
+    <joint name="joint_0" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0.23" rpy="0 0 0"/>        
+    </joint>
+
+
+    <!-- Link 'base_link' que representa a base do manipulador -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/base_link.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="green"/>
+        </visual>
+    </link>
+
+    <!-- Junta rotacional (R) entre 'base_link' e 'link_1' -->
+    <joint name="joint_1" type="revolute">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="green"/>
+        </visual>
+
+        <parent link="base_link"/>
+        <child link="link_1"/>
+        <origin xyz="0 0 85" rpy="-1.5708 0 1.3815"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="1000" velocity="5" lower="-3.141593" upper="3.141593"/>        
+    </joint>
+
+    <!-- Link 'link_1', que é o primeiro braço do manipulador -->
+    <link name="link_1">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/link_1.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0"/>
+            <material name="yellow"/>
+        </visual>
+
+        <!-- Configuracoes de colisao usando a mesma mesh do link equivalente -->
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                filename="package://robot_description/meshes/link_1.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Junta rotacional (R) entre 'link_1' e 'link_2' -->
+    <joint name="joint_2" type="revolute">
+        <parent link="link_1"/>
+        <child link="link_2"/>
+        <origin xyz="0 -260 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="1000" velocity="5" lower="-1.5707" upper="1.5707"/>        
+    </joint>
+
+    <!-- Link 'link_2', que é o segundo braço do manipulador -->
+    <link name="link_2">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/link_2.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0"/>
+            <material name="cyan"/>
+        </visual>
+
+        <!-- Configuracoes de colisao usando a mesma mesh do link equivalente -->
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                filename="package://robot_description/meshes/link_2.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+
+    <!-- Junta prismática (P) entre 'link_2' e 'link_3' -->
+    <joint name="joint_3" type="prismatic">
+        <parent link="link_2"/>
+        <child link="link_3"/>
+        <origin xyz="0 0 -262.98" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="1000" velocity="5" lower="-40" upper="30"/>        
+    </joint>
+
+
+    <!-- Link 'link_3', que é o último braço do manipulador -->
+    <link name="link_3">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/link_3.STL"/>
+            </geometry>
+            <origin xyz="0 -50 0" rpy="-1.57 0 0"/>
+            <material name="red"/>
+        </visual>
+        <!-- Configuracoes de colisao usando a mesma mesh do link equivalente -->
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                filename="package://robot_description/meshes/link_3.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Sensor de força e torque no final -->
+    <sensor name="force_torque_sensor" type="force_torque">
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <parent link="link_3"/>
+    </sensor>
+
+</robot>
+
+
+
+
+

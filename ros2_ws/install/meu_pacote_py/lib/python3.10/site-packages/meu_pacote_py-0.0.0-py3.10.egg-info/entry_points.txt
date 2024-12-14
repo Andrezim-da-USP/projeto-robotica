@@ -1,0 +1,4 @@
+[console_scripts]
+publisher_py = meu_pacote_py.publisher_py:main
+subscriber_py = meu_pacote_py.subscriber_py:main
+
